@@ -1,6 +1,8 @@
 ---
 title: Introduction
 sort: 1
+contributors:
+  - tbroadley
 ---
 
 A variety of interfaces are available to customize the compilation process. Some
@@ -32,7 +34,7 @@ module syntaxes -- specifically the [methods](/api/module-methods) and
 
 While most users can get away with just using the CLI along with a configuration
 file, more fine-grained control of the compilation can be achieved via the Node
-interface. This includes passing multiple configurations, programatically running
+interface. This includes passing multiple configurations, programmatically running
 or watching, and collecting stats.
 
 [Learn more!](/api/node)
@@ -42,7 +44,7 @@ or watching, and collecting stats.
 
 Loaders are transformations that are applied to the source code of a module. They
 are written as functions that accept source code as a parameter and return a new
-version of that code with tranformations applied.
+version of that code with transformations applied.
 
 [Learn more!](/api/loaders)
 
